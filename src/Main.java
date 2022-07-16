@@ -4,10 +4,10 @@ public class Main {
 
         BmiService service = new BmiService();
 
-        double weight = 74;
-        double hight = 1.72;
+        double weight = 95;
+        double hight = 1.90;
 
-        double BmiCalculate = service.calculate(weight,hight);
+        double BmiCalculate = service.calculate(weight, hight);
         System.out.println(BmiCalculate);
-     }
+    }
 }
